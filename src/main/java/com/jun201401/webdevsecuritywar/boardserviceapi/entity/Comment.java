@@ -27,10 +27,8 @@ public class Comment {
     private String content;
 
     @Column(name="created_at", nullable = false)
-    @Temporal(TemporalType.TIMESTAMP)
     private LocalDateTime createdAt;
 
     @Column(name="updated_at", nullable = false)
-    @Temporal(TemporalType.TIMESTAMP)
     private LocalDateTime updatedAt;
 }
